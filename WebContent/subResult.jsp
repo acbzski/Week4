@@ -6,6 +6,10 @@
 <head>
 <meta charset="UTF-8">
 <title>Worst Result Ever</title>
+<style>
+body {background-color:lime;}
+h1, p, a {color:fuchsia; font-family:"Comic Sans MS";}
+</style>
 </head>
 <body>
 	<h1>Subtraction Result</h1>

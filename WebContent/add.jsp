@@ -5,6 +5,10 @@
 <head>
 <meta charset="UTF-8">
 <title>Worst Addition Ever</title>
+<style>
+body {background-color:lime;}
+h1, form {color:fuchsia; font-family:"Comic Sans MS";}
+</style>
 </head>
 <body>
 	<h1>Addition Page of the Worst Calculator Ever&trade;</h1>
