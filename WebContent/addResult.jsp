@@ -7,10 +7,17 @@
 <meta charset="UTF-8">
 <title>Worst Result Ever</title>
 <style>
-body {background-color:lime; color:fuchsia; font-family:"Comic Sans MS";}
+body { 
+  background-image:url(https://i.imgur.com/hcIQfIE.gif);
+  background-size:cover;
+  color:fuchsia;
+  font-family:"Comic Sans MS";
+}
+a {color:fuchsia;}
+a:visited {color:fuchsia;}
 .marquee {
   background-color:fuchsia;
-  color:cyan;
+  color:darkgoldenrod;
   border-radius:15px;
   width: 500px;
   margin: 0 auto;
@@ -38,7 +45,7 @@ body {background-color:lime; color:fuchsia; font-family:"Comic Sans MS";}
 </style>
 </head>
 <body>
-	<h1 class="marquee"><span>Worst Calculator Ever&trade; Addition Result!</span></h1>
+	<h1 class="marquee"><span><strike>Worst</strike> Best Calculator Ever&trade; Addition Result!</span></h1>
 	<p>The result of ${math.getNumOne()} + ${math.getNumTwo()} is: ${math.getResult()}<br />
 	Congratulations! You used the Worst Calculator Ever&trade;!
 	</p>

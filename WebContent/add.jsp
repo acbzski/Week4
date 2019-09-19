@@ -6,10 +6,15 @@
 <meta charset="UTF-8">
 <title>Worst Addition Ever</title>
 <style>
-body {background-color:lime; color:fuchsia; font-family:"Comic Sans MS";}
+body { 
+  background-image:url(https://i.imgur.com/hcIQfIE.gif);
+  background-size:cover;
+  color:fuchsia;
+  font-family:"Comic Sans MS";
+}
 .marquee {
   background-color:fuchsia;
-  color:cyan;
+  color:darkgoldenrod;
   border-radius:15px;
   width: 500px;
   margin: 0 auto;
@@ -37,7 +42,7 @@ body {background-color:lime; color:fuchsia; font-family:"Comic Sans MS";}
 </style>
 </head>
 <body>
-	<h1 class="marquee"><span>Addition Page of the Worst Calculator Ever&trade;</span></h1>
+	<h1 class="marquee"><span>Addition Page of the <strike>Worst</strike> Best Calculator Ever&trade;</span></h1>
 	<form action="addNumsServlet" method="post">
 	Enter the first of two numbers you would like to be added together:<br />
 	<input type="number" name="userNumOne" min="1"><br />
