@@ -4,10 +4,12 @@
 <meta charset="UTF-8">
 <title>Worst Calculator Ever</title>
 <style>
-body {background-color:lime;}
-h1, p, a {color:fuchsia; font-family:"Comic Sans MS";}
+body {background-color:lime; color:fuchsia; font-family:"Comic Sans MS";}
 .marquee {
-  width: 450px;
+  background-color:fuchsia;
+  color:cyan;
+  border-radius:15px;
+  width: 500px;
   margin: 0 auto;
   white-space: nowrap;
   overflow: hidden;
@@ -17,7 +19,7 @@ h1, p, a {color:fuchsia; font-family:"Comic Sans MS";}
   display: inline-block;
   padding-left: 100%;
   /* show the marquee just outside the paragraph */
-  animation: marquee 15s linear infinite;
+  animation: marquee 5s linear infinite;
 }
 .marquee span:hover {
   animation-play-state: paused
